@@ -445,7 +445,7 @@ client.on('message', message => {
           let min = Math.floor(upTime / 60);
           let sec = Math.floor(upTime % 60);
       
-          message.channel.send(``${days} days, ${hrs} hrs, ${min} min, ${sec} sec``);
+          message.channel.send(" ${days} days, ${hrs} hrs, ${min} min, ${sec} sec ");
         }
     });
 
